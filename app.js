@@ -1,8 +1,11 @@
 
-const { tablaMultiplicarDel } = require("./helpers/operacionesMatematicas");
+const { crearArchivo } = require("./helpers/multiplicar");
 
 console.clear();
 
-tablaMultiplicarDel(10)
+const [,, arg3 = "base=4"] = process.argv;
+const [, base] = arg3.split("=");
+
+crearArchivo(base)
     .then(console.log)
     .catch(console.log);
