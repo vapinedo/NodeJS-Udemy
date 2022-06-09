@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/vapinedo/NodeJS-Udemy#readme",
   "dependencies": {
-    "colors": "^1.4.0"
+    "colors": "^1.4.0",
+    "yargs": "^17.4.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
